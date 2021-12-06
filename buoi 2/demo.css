@@ -1,0 +1,135 @@
+body{
+	font-family: 'Rubik', sans-serif;
+	background-color: #F6DEDE;
+	color: #3F104A;
+	font-weight: 600;
+}
+.container{
+	max-width: 800px;
+	margin: 0 auto;
+}
+.header{
+	text-align: center;
+	background-color: #D7344F;
+	border: 1px solid #D4CDD4;
+	border-radius: 10px;
+	padding: 10px 0 0 0;
+	margin: 20px 0 10px 0;
+}
+h1{
+	color: white;
+	margin: 10px 0;
+}
+.desc{
+	color: #E6E6E6;
+	padding-bottom: 20px;
+	font-weight: 400;
+}
+
+.main{
+	background-color: white;
+	border: 1px solid #D4CDD4;
+	border-radius: 10px;
+	padding: 30px 30px 0;
+	margin-bottom: 10px;
+}
+.item{
+	padding-bottom: 30px;
+	position: relative;
+}
+label{
+	display: block;
+}
+input{
+	width: 40%;
+  padding: 5px 0;
+  margin: 8px 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #D4CDD4;
+}
+input:focus {
+border-bottom: 2px solid #D7344F;
+}
+
+/* The container */
+.gender {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+/* Hide the browser's default radio button */
+.gender input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.gender:hover input ~ .checkmark {
+  background-color: #F6DEDE;
+}
+
+/* When the radio button is checked, add a blue background */
+.gender input:checked ~ .checkmark {
+  background-color: #D7344F;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.gender input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.gender .checkmark:after {
+ 	top: 4px;
+	left: 4px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.button{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+button{
+	font-size: 18px;
+	height: 50px;
+	width: 150px;
+  background-color: #F53855;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+}
+button:hover{
+	box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
