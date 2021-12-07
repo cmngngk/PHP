@@ -1,0 +1,80 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F6DEDE;
+}
+.container{
+	max-width: 800px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+  color: mediumseagreen;
+}
+
+/* Nút đăng ký */
+.register{
+	text-align: center;
+	background-color: #D7344F;
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+	border: 1px solid #D4CDD4;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 20px 0 10px 0;
+}
+
+/* Danh sách đã đăng ký*/
+.main{
+	background-color: #D7344F;
+	border-radius: 10px;
+	padding: 10px 30px;
+}
+.header{
+	text-align: center;
+	background-color: #D7344F;
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 10px;
+}
+.item{
+	background-color: white;
+	padding: 10px 20px;
+	margin: 0 30px 10px 30px;
+	display: flex;
+	border-radius: 10px;
+}
+.avatar{
+	top: 50%;
+}
+img{
+	height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    padding: 5px;
+    border: 1px solid #d4d4d4;
+    transform: translateY(22px);
+}
+
+
+.content{
+	padding: 29px 30px;
+}
+.name{
+	padding-bottom: 3px;
+	font-size: 20px;
+	font-weight: 700;
+
+}
+.desc{
+	width: 450px;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}

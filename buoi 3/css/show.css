@@ -1,0 +1,35 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F6DEDE;
+}
+.container{
+	max-width: 800px;
+	margin: 0 auto;
+}
+.header{
+	text-align: center;
+	background-color: #D7344F;
+	border: 1px solid #D4CDD4;
+	border-radius: 10px;
+	padding: 10px 0 0 0;
+	margin: 20px 0 10px 0;
+}
+h1{
+	color: white;
+	margin: 10px 0;
+}
+.main{
+	background-color: white;
+	border: 1px solid #D4CDD4;
+	border-radius: 10px;
+	padding: 40px;
+	display: flex;
+	column-gap: 30px;
+}
+img{
+	max-width: 200px;
+	border-radius: 10px;
+}
+.infor{
+	font-weight: 700;
+}
